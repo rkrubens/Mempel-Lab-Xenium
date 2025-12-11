@@ -20,9 +20,9 @@ Resegmentation was performed using:
 
 Following resegmentation:
 
-* Individual Xenium slides were ingested.
-* Dataset-level **quality control** was performed.
-* All slides were **concatenated** into a unified AnnData object per tumor model.
+* Individual Xenium slides were ingested
+* Dataset-level **quality control** was performed
+* All slides were **concatenated** into a unified AnnData object per tumor model
 
 ### 3. Integration Benchmark per Tumor
 
@@ -43,17 +43,13 @@ Integration was evaluated following the scIB benchmarking guidelines (Luecken *e
 
 For each integration result:
 
-* **kNN graphs** were computed based on the corresponding embedding.
-* **UMAP** embeddings were generated for visualization.
-* **Leiden clustering** was performed at resolutions **0.1, 0.2, 0.4, …, 2.0**, producing a series of cluster labels (e.g., `leiden_0_1`, `leiden_0_2`, …).
-
-These outputs provide the basis for downstream biological interpretation and cell-type annotation.
+* **kNN graphs** were computed based on the corresponding embedding
+* **UMAP** embeddings were generated for visualization
+* **Leiden clustering** was performed at resolutions **0.1, 0.2, 0.4, …, 2.0**, producing a series of cluster labels (e.g., `leiden_0_1`, `leiden_0_2`, …)
 
 ---
 
 ## Citation
-
-If you use this workflow, please cite:
 
 * Jones *et al.*, **Proseg**, *Nature Methods*, 2025
 * Korsunsky *et al.*, **Harmony**, *Nature Methods*, 2019
