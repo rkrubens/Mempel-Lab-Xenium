@@ -1,0 +1,151 @@
+[2025-12-08 19:32:27] ===== Xenium → AnnData resegmentation pipeline started =====
+[2025-12-08 19:32:27] SLURM_JOB_ID=32848459, SLURM_ARRAY_TASK_ID=N/A
+[2025-12-08 19:32:27] Base directory: /home/icb/raphael.kfuri-rubens/git/mempel_xenium
+[2025-12-08 19:32:27] Output directory (h5ad): /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas
+[2025-12-08 19:32:27] Found 12 bundles: ['resegment_output-XETG00323__0052328__TU_aPDL1_2__20250221__191919', 'resegment_output-XETG00323__0052328__TU_aPDL1_1__20250221__191919', 'resegment_output-XETG00323__0023214__MCA205_d21__20240809__204811', 'resegment_output-XETG00323__0052425__TU_2__20250221__191919', 'resegment_output-XETG00212__0023182__MCA205_d7__20240809__203238', 'resegment_output-XETG00323__0023078__MCA205_d4_aPDL1__20240809__204811', 'resegment_output-XETG00323__0052425__TU_3__20250221__191919', 'resegment_output-XETG00323__0052425__TU_aPDL1_3__20250221__191919', 'resegment_output-XETG00323__0052425__TU_1__20250221__191919', 'resegment_output-XETG00323__0023214__MCA205_d14__20240809__204811', 'resegment_output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_', 'resegment_output-XETG00323__0023078__MCA205_d2_aPDL1__20240809__204811']
+[2025-12-08 19:32:27] 
+==============================================
+[2025-12-08 19:32:27] [1/12] Processing Xenium bundle: resegment_output-XETG00323__0052328__TU_aPDL1_2__20250221__191919
+[2025-12-08 19:32:27] → Reading Xenium data from: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegment_output-XETG00323__0052328__TU_aPDL1_2__20250221__191919/outs
+[34mINFO    [0m Column `feature_name` contains unknown categories. Consider casting it.
+[2025-12-08 19:34:24]    Loaded AnnData with shape: (644688, 335)
+[2025-12-08 19:34:24] → Calculating QC metrics...
+[2025-12-08 19:34:55] → Filtering cells (min_counts=10) and genes (min_cells=5)...
+[2025-12-08 19:34:56]    Cells: 644688 → 638882, Genes: 335 → 335
+[2025-12-08 19:34:56] → Storing raw counts in adata.layers['counts']
+[2025-12-08 19:34:56] → Saving AnnData to: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052328__TU_aPDL1_2__20250221__191919.h5ad
+[2025-12-08 19:34:58] ✔️ Successfully saved: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052328__TU_aPDL1_2__20250221__191919.h5ad
+[2025-12-08 19:34:58] 
+==============================================
+[2025-12-08 19:34:58] [2/12] Processing Xenium bundle: resegment_output-XETG00323__0052328__TU_aPDL1_1__20250221__191919
+[2025-12-08 19:34:58] → Reading Xenium data from: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegment_output-XETG00323__0052328__TU_aPDL1_1__20250221__191919/outs
+[34mINFO    [0m Column `feature_name` contains unknown categories. Consider casting it.
+[2025-12-08 19:36:24]    Loaded AnnData with shape: (558706, 335)
+[2025-12-08 19:36:24] → Calculating QC metrics...
+[2025-12-08 19:36:24] → Filtering cells (min_counts=10) and genes (min_cells=5)...
+[2025-12-08 19:36:25]    Cells: 558706 → 556239, Genes: 335 → 335
+[2025-12-08 19:36:25] → Storing raw counts in adata.layers['counts']
+[2025-12-08 19:36:25] → Saving AnnData to: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052328__TU_aPDL1_1__20250221__191919.h5ad
+[2025-12-08 19:36:27] ✔️ Successfully saved: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052328__TU_aPDL1_1__20250221__191919.h5ad
+[2025-12-08 19:36:27] 
+==============================================
+[2025-12-08 19:36:27] [3/12] Processing Xenium bundle: resegment_output-XETG00323__0023214__MCA205_d21__20240809__204811
+[2025-12-08 19:36:27] → Reading Xenium data from: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegment_output-XETG00323__0023214__MCA205_d21__20240809__204811/outs
+[34mINFO    [0m Column `feature_name` contains unknown categories. Consider casting it.
+[2025-12-08 19:38:06]    Loaded AnnData with shape: (608693, 335)
+[2025-12-08 19:38:06] → Calculating QC metrics...
+[2025-12-08 19:38:07] → Filtering cells (min_counts=10) and genes (min_cells=5)...
+[2025-12-08 19:38:08]    Cells: 608693 → 606169, Genes: 335 → 335
+[2025-12-08 19:38:08] → Storing raw counts in adata.layers['counts']
+[2025-12-08 19:38:08] → Saving AnnData to: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0023214__MCA205_d21__20240809__204811.h5ad
+[2025-12-08 19:38:11] ✔️ Successfully saved: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0023214__MCA205_d21__20240809__204811.h5ad
+[2025-12-08 19:38:11] 
+==============================================
+[2025-12-08 19:38:11] [4/12] Processing Xenium bundle: resegment_output-XETG00323__0052425__TU_2__20250221__191919
+[2025-12-08 19:38:11] → Reading Xenium data from: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegment_output-XETG00323__0052425__TU_2__20250221__191919/outs
+[34mINFO    [0m Column `feature_name` contains unknown categories. Consider casting it.
+[2025-12-08 19:39:48]    Loaded AnnData with shape: (626839, 335)
+[2025-12-08 19:39:48] → Calculating QC metrics...
+[2025-12-08 19:39:49] → Filtering cells (min_counts=10) and genes (min_cells=5)...
+[2025-12-08 19:39:50]    Cells: 626839 → 622199, Genes: 335 → 335
+[2025-12-08 19:39:50] → Storing raw counts in adata.layers['counts']
+[2025-12-08 19:39:50] → Saving AnnData to: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052425__TU_2__20250221__191919.h5ad
+[2025-12-08 19:39:52] ✔️ Successfully saved: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052425__TU_2__20250221__191919.h5ad
+[2025-12-08 19:39:52] 
+==============================================
+[2025-12-08 19:39:52] [5/12] Processing Xenium bundle: resegment_output-XETG00212__0023182__MCA205_d7__20240809__203238
+[2025-12-08 19:39:52] → Reading Xenium data from: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegment_output-XETG00212__0023182__MCA205_d7__20240809__203238/outs
+[34mINFO    [0m Column `feature_name` contains unknown categories. Consider casting it.
+[2025-12-08 19:40:45]    Loaded AnnData with shape: (262149, 335)
+[2025-12-08 19:40:45] → Calculating QC metrics...
+[2025-12-08 19:40:45] → Filtering cells (min_counts=10) and genes (min_cells=5)...
+[2025-12-08 19:40:45]    Cells: 262149 → 260709, Genes: 335 → 335
+[2025-12-08 19:40:45] → Storing raw counts in adata.layers['counts']
+[2025-12-08 19:40:45] → Saving AnnData to: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00212__0023182__MCA205_d7__20240809__203238.h5ad
+[2025-12-08 19:40:46] ✔️ Successfully saved: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00212__0023182__MCA205_d7__20240809__203238.h5ad
+[2025-12-08 19:40:46] 
+==============================================
+[2025-12-08 19:40:46] [6/12] Processing Xenium bundle: resegment_output-XETG00323__0023078__MCA205_d4_aPDL1__20240809__204811
+[2025-12-08 19:40:46] → Reading Xenium data from: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegment_output-XETG00323__0023078__MCA205_d4_aPDL1__20240809__204811/outs
+[34mINFO    [0m Column `feature_name` contains unknown categories. Consider casting it.
+[2025-12-08 19:42:59]    Loaded AnnData with shape: (847956, 335)
+[2025-12-08 19:42:59] → Calculating QC metrics...
+[2025-12-08 19:43:00] → Filtering cells (min_counts=10) and genes (min_cells=5)...
+[2025-12-08 19:43:01]    Cells: 847956 → 805742, Genes: 335 → 335
+[2025-12-08 19:43:01] → Storing raw counts in adata.layers['counts']
+[2025-12-08 19:43:01] → Saving AnnData to: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0023078__MCA205_d4_aPDL1__20240809__204811.h5ad
+[2025-12-08 19:43:04] ✔️ Successfully saved: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0023078__MCA205_d4_aPDL1__20240809__204811.h5ad
+[2025-12-08 19:43:04] 
+==============================================
+[2025-12-08 19:43:04] [7/12] Processing Xenium bundle: resegment_output-XETG00323__0052425__TU_3__20250221__191919
+[2025-12-08 19:43:04] → Reading Xenium data from: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegment_output-XETG00323__0052425__TU_3__20250221__191919/outs
+[34mINFO    [0m Column `feature_name` contains unknown categories. Consider casting it.
+[2025-12-08 19:44:59]    Loaded AnnData with shape: (701278, 335)
+[2025-12-08 19:44:59] → Calculating QC metrics...
+[2025-12-08 19:45:00] → Filtering cells (min_counts=10) and genes (min_cells=5)...
+[2025-12-08 19:45:00]    Cells: 701278 → 692582, Genes: 335 → 335
+[2025-12-08 19:45:00] → Storing raw counts in adata.layers['counts']
+[2025-12-08 19:45:01] → Saving AnnData to: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052425__TU_3__20250221__191919.h5ad
+[2025-12-08 19:45:03] ✔️ Successfully saved: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052425__TU_3__20250221__191919.h5ad
+[2025-12-08 19:45:03] 
+==============================================
+[2025-12-08 19:45:03] [8/12] Processing Xenium bundle: resegment_output-XETG00323__0052425__TU_aPDL1_3__20250221__191919
+[2025-12-08 19:45:03] → Reading Xenium data from: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegment_output-XETG00323__0052425__TU_aPDL1_3__20250221__191919/outs
+[34mINFO    [0m Column `feature_name` contains unknown categories. Consider casting it.
+[2025-12-08 19:46:13]    Loaded AnnData with shape: (396957, 335)
+[2025-12-08 19:46:13] → Calculating QC metrics...
+[2025-12-08 19:46:13] → Filtering cells (min_counts=10) and genes (min_cells=5)...
+[2025-12-08 19:46:14]    Cells: 396957 → 394763, Genes: 335 → 335
+[2025-12-08 19:46:14] → Storing raw counts in adata.layers['counts']
+[2025-12-08 19:46:14] → Saving AnnData to: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052425__TU_aPDL1_3__20250221__191919.h5ad
+[2025-12-08 19:46:15] ✔️ Successfully saved: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052425__TU_aPDL1_3__20250221__191919.h5ad
+[2025-12-08 19:46:15] 
+==============================================
+[2025-12-08 19:46:15] [9/12] Processing Xenium bundle: resegment_output-XETG00323__0052425__TU_1__20250221__191919
+[2025-12-08 19:46:15] → Reading Xenium data from: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegment_output-XETG00323__0052425__TU_1__20250221__191919/outs
+[34mINFO    [0m Column `feature_name` contains unknown categories. Consider casting it.
+[2025-12-08 19:47:38]    Loaded AnnData with shape: (590522, 335)
+[2025-12-08 19:47:38] → Calculating QC metrics...
+[2025-12-08 19:47:39] → Filtering cells (min_counts=10) and genes (min_cells=5)...
+[2025-12-08 19:47:40]    Cells: 590522 → 582731, Genes: 335 → 335
+[2025-12-08 19:47:40] → Storing raw counts in adata.layers['counts']
+[2025-12-08 19:47:40] → Saving AnnData to: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052425__TU_1__20250221__191919.h5ad
+[2025-12-08 19:47:42] ✔️ Successfully saved: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052425__TU_1__20250221__191919.h5ad
+[2025-12-08 19:47:42] 
+==============================================
+[2025-12-08 19:47:42] [10/12] Processing Xenium bundle: resegment_output-XETG00323__0023214__MCA205_d14__20240809__204811
+[2025-12-08 19:47:42] → Reading Xenium data from: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegment_output-XETG00323__0023214__MCA205_d14__20240809__204811/outs
+[34mINFO    [0m Column `feature_name` contains unknown categories. Consider casting it.
+[2025-12-08 19:49:47]    Loaded AnnData with shape: (789974, 335)
+[2025-12-08 19:49:47] → Calculating QC metrics...
+[2025-12-08 19:49:48] → Filtering cells (min_counts=10) and genes (min_cells=5)...
+[2025-12-08 19:49:49]    Cells: 789974 → 778776, Genes: 335 → 335
+[2025-12-08 19:49:49] → Storing raw counts in adata.layers['counts']
+[2025-12-08 19:49:49] → Saving AnnData to: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0023214__MCA205_d14__20240809__204811.h5ad
+[2025-12-08 19:49:53] ✔️ Successfully saved: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0023214__MCA205_d14__20240809__204811.h5ad
+[2025-12-08 19:49:53] 
+==============================================
+[2025-12-08 19:49:53] [11/12] Processing Xenium bundle: resegment_output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_
+[2025-12-08 19:49:53] → Reading Xenium data from: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegment_output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_/outs
+[34mINFO    [0m Column `feature_name` contains unknown categories. Consider casting it.
+[2025-12-08 19:52:32]    Loaded AnnData with shape: (1003405, 335)
+[2025-12-08 19:52:32] → Calculating QC metrics...
+[2025-12-08 19:52:34] → Filtering cells (min_counts=10) and genes (min_cells=5)...
+[2025-12-08 19:52:35]    Cells: 1003405 → 1000255, Genes: 335 → 335
+[2025-12-08 19:52:35] → Storing raw counts in adata.layers['counts']
+[2025-12-08 19:52:35] → Saving AnnData to: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_.h5ad
+[2025-12-08 19:52:39] ✔️ Successfully saved: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_.h5ad
+[2025-12-08 19:52:39] 
+==============================================
+[2025-12-08 19:52:39] [12/12] Processing Xenium bundle: resegment_output-XETG00323__0023078__MCA205_d2_aPDL1__20240809__204811
+[2025-12-08 19:52:39] → Reading Xenium data from: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegment_output-XETG00323__0023078__MCA205_d2_aPDL1__20240809__204811/outs
+[34mINFO    [0m Column `feature_name` contains unknown categories. Consider casting it.
+[2025-12-08 19:54:25]    Loaded AnnData with shape: (606343, 335)
+[2025-12-08 19:54:25] → Calculating QC metrics...
+[2025-12-08 19:54:25] → Filtering cells (min_counts=10) and genes (min_cells=5)...
+[2025-12-08 19:54:26]    Cells: 606343 → 588123, Genes: 335 → 335
+[2025-12-08 19:54:26] → Storing raw counts in adata.layers['counts']
+[2025-12-08 19:54:26] → Saving AnnData to: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0023078__MCA205_d2_aPDL1__20240809__204811.h5ad
+[2025-12-08 19:54:29] ✔️ Successfully saved: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0023078__MCA205_d2_aPDL1__20240809__204811.h5ad
+[2025-12-08 19:54:29] 
+===== All done. =====

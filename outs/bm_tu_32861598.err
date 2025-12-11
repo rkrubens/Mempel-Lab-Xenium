@@ -1,0 +1,65 @@
+/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+Computing neighbors:   0%|          | 0/4 [00:00<?, ?it/s]Computing neighbors:  25%|██▌       | 1/4 [09:39<28:57, 579.07s/it]Computing neighbors:  50%|█████     | 2/4 [19:07<19:05, 572.57s/it]Computing neighbors:  75%|███████▌  | 3/4 [27:43<09:07, 547.02s/it]Computing neighbors: 100%|██████████| 4/4 [36:59<00:00, 550.36s/it]Computing neighbors: 100%|██████████| 4/4 [36:59<00:00, 554.80s/it]
+Embeddings:   0%|[32m          [0m| 0/4 [00:00<?, ?it/s]
+Metrics:   0%|[34m          [0m| 0/5 [00:00<?, ?it/s][A
+Metrics:   0%|[34m          [0m| 0/5 [00:05<?, ?it/s, Batch correction: bras][AWARNING:2025-12-09 19:51:58,510:jax._src.xla_bridge:854: An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+
+Metrics:  20%|[34m██        [0m| 1/5 [2:59:30<11:58:03, 10770.83s/it, Batch correction: bras][A
+Metrics:  20%|[34m██        [0m| 1/5 [2:59:33<11:58:03, 10770.83s/it, Batch correction: ilisi_knn][A
+Metrics:  40%|[34m████      [0m| 2/5 [2:59:50<3:42:20, 4446.85s/it, Batch correction: ilisi_knn]  [A
+Metrics:  40%|[34m████      [0m| 2/5 [2:59:51<3:42:20, 4446.85s/it, Batch correction: kbet_per_label][A
+Metrics:  60%|[34m██████    [0m| 3/5 [3:46:20<2:03:00, 3690.03s/it, Batch correction: kbet_per_label][A
+Metrics:  60%|[34m██████    [0m| 3/5 [3:46:20<2:03:00, 3690.03s/it, Batch correction: graph_connectivity][A/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/scib_metrics/metrics/_graph_connectivity.py:32: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(comps)
+
+Metrics:  80%|[34m████████  [0m| 4/5 [3:46:25<37:15, 2235.23s/it, Batch correction: graph_connectivity]  [A
+Metrics:  80%|[34m████████  [0m| 4/5 [3:46:25<37:15, 2235.23s/it, Batch correction: pcr_comparison]    [A
+Metrics: 100%|[34m██████████[0m| 5/5 [3:46:35<00:00, 1432.98s/it, Batch correction: pcr_comparison][AEmbeddings:  25%|[32m██▌       [0m| 1/4 [3:46:35<11:19:47, 13595.84s/it]
+                                                                                            [A
+Metrics:   0%|[34m          [0m| 0/5 [00:00<?, ?it/s][A
+Metrics:   0%|[34m          [0m| 0/5 [00:00<?, ?it/s, Batch correction: bras][A
+Metrics:  20%|[34m██        [0m| 1/5 [2:59:43<11:58:54, 10783.72s/it, Batch correction: bras][A
+Metrics:  20%|[34m██        [0m| 1/5 [2:59:47<11:58:54, 10783.72s/it, Batch correction: ilisi_knn][A
+Metrics:  40%|[34m████      [0m| 2/5 [3:00:04<3:42:38, 4452.81s/it, Batch correction: ilisi_knn]  [A
+Metrics:  40%|[34m████      [0m| 2/5 [3:00:05<3:42:38, 4452.81s/it, Batch correction: kbet_per_label][A
+Metrics:  60%|[34m██████    [0m| 3/5 [3:49:01<2:05:20, 3760.22s/it, Batch correction: kbet_per_label][A
+Metrics:  60%|[34m██████    [0m| 3/5 [3:49:05<2:05:20, 3760.22s/it, Batch correction: graph_connectivity][A/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/scib_metrics/metrics/_graph_connectivity.py:32: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(comps)
+
+Metrics:  80%|[34m████████  [0m| 4/5 [3:49:10<37:59, 2279.38s/it, Batch correction: graph_connectivity]  [A
+Metrics:  80%|[34m████████  [0m| 4/5 [3:49:10<37:59, 2279.38s/it, Batch correction: pcr_comparison]    [A
+Metrics: 100%|[34m██████████[0m| 5/5 [3:49:20<00:00, 1460.97s/it, Batch correction: pcr_comparison][AEmbeddings:  50%|[32m█████     [0m| 2/4 [7:35:55<7:36:24, 13692.46s/it] 
+                                                                                            [A
+Metrics:   0%|[34m          [0m| 0/5 [00:00<?, ?it/s][A
+Metrics:   0%|[34m          [0m| 0/5 [00:00<?, ?it/s, Batch correction: bras][A
+Metrics:  20%|[34m██        [0m| 1/5 [2:39:49<10:39:16, 9589.08s/it, Batch correction: bras][A
+Metrics:  20%|[34m██        [0m| 1/5 [2:39:53<10:39:16, 9589.08s/it, Batch correction: ilisi_knn][A
+Metrics:  40%|[34m████      [0m| 2/5 [2:40:10<3:18:02, 3960.86s/it, Batch correction: ilisi_knn] [A
+Metrics:  40%|[34m████      [0m| 2/5 [2:40:10<3:18:02, 3960.86s/it, Batch correction: kbet_per_label][A
+Metrics:  60%|[34m██████    [0m| 3/5 [3:26:34<1:54:06, 3423.48s/it, Batch correction: kbet_per_label][A
+Metrics:  60%|[34m██████    [0m| 3/5 [3:26:37<1:54:06, 3423.48s/it, Batch correction: graph_connectivity][A/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/scib_metrics/metrics/_graph_connectivity.py:32: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(comps)
+
+Metrics:  80%|[34m████████  [0m| 4/5 [3:26:43<34:35, 2075.45s/it, Batch correction: graph_connectivity]  [A
+Metrics:  80%|[34m████████  [0m| 4/5 [3:26:43<34:35, 2075.45s/it, Batch correction: pcr_comparison]    [A
+Metrics: 100%|[34m██████████[0m| 5/5 [3:27:00<00:00, 1333.19s/it, Batch correction: pcr_comparison][AEmbeddings:  75%|[32m███████▌  [0m| 3/4 [11:02:56<3:38:31, 13111.53s/it]
+                                                                                            [A
+Metrics:   0%|[34m          [0m| 0/5 [00:00<?, ?it/s][A
+Metrics:   0%|[34m          [0m| 0/5 [00:00<?, ?it/s, Batch correction: bras][A
+Metrics:  20%|[34m██        [0m| 1/5 [2:33:54<10:15:39, 9234.75s/it, Batch correction: bras][A
+Metrics:  20%|[34m██        [0m| 1/5 [2:33:58<10:15:39, 9234.75s/it, Batch correction: ilisi_knn][A
+Metrics:  40%|[34m████      [0m| 2/5 [2:34:08<3:10:31, 3810.54s/it, Batch correction: ilisi_knn] [A
+Metrics:  40%|[34m████      [0m| 2/5 [2:34:08<3:10:31, 3810.54s/it, Batch correction: kbet_per_label][A
+Metrics:  60%|[34m██████    [0m| 3/5 [3:26:08<1:56:30, 3495.39s/it, Batch correction: kbet_per_label][A
+Metrics:  60%|[34m██████    [0m| 3/5 [3:26:12<1:56:30, 3495.39s/it, Batch correction: graph_connectivity][A/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/scib_metrics/metrics/_graph_connectivity.py:32: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(comps)
+
+Metrics:  80%|[34m████████  [0m| 4/5 [3:26:17<35:19, 2119.08s/it, Batch correction: graph_connectivity]  [A
+Metrics:  80%|[34m████████  [0m| 4/5 [3:26:18<35:19, 2119.08s/it, Batch correction: pcr_comparison]    [A/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/scib_metrics/metrics/_pcr_comparison.py:49: UserWarning: PCR comparison score is negative, meaning variance contribution increased after integration. Setting to 0.
+  warnings.warn(
+
+Metrics: 100%|[34m██████████[0m| 5/5 [3:26:38<00:00, 1362.31s/it, Batch correction: pcr_comparison][AEmbeddings: 100%|[32m██████████[0m| 4/4 [14:29:34<00:00, 12830.00s/it]  Embeddings: 100%|[32m██████████[0m| 4/4 [14:29:34<00:00, 13043.65s/it]
+
+                                                                                            [A/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/scib_metrics/benchmark/_core.py:307: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'Aggregate score' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  df.loc[_METRIC_TYPE, per_class_score.columns] = _AGGREGATE_SCORE

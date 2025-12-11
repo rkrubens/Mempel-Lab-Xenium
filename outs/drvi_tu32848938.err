@@ -1,0 +1,53 @@
+/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/lightning/fabric/__init__.py:36: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/scvi/_settings.py:63: UserWarning: Since v1.0.0, scvi-tools no longer uses a random seed by default. Run `scvi.settings.seed = 0` to reproduce results from previous versions.
+  self.seed = seed
+/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/scvi/_settings.py:70: UserWarning: Setting `dl_pin_memory_gpu_training` is deprecated in v1.0 and will be removed in v1.1. Please pass in `pin_memory` to the data loaders instead.
+  self.dl_pin_memory_gpu_training = (
+Traceback (most recent call last):
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/git/mempel_xenium/drvi_integration.py", line 168, in <module>
+    main(
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/git/mempel_xenium/drvi_integration.py", line 57, in main
+    adata = sc.read_h5ad(input_path)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/h5ad.py", line 258, in read_h5ad
+    adata = read_dispatched(f, callback=callback)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/experimental/_dispatch_io.py", line 42, in read_dispatched
+    return reader.read_elem(elem)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/utils.py", line 211, in func_wrapper
+    return func(*args, **kwargs)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/specs/registry.py", line 275, in read_elem
+    return self.callback(read_func, elem.name, elem, iospec=iospec)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/h5ad.py", line 239, in callback
+    **{
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/h5ad.py", line 242, in <dictcomp>
+    k: read_dispatched(elem[k], callback)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/experimental/_dispatch_io.py", line 42, in read_dispatched
+    return reader.read_elem(elem)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/utils.py", line 211, in func_wrapper
+    return func(*args, **kwargs)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/specs/registry.py", line 275, in read_elem
+    return self.callback(read_func, elem.name, elem, iospec=iospec)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/h5ad.py", line 256, in callback
+    return func(elem)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/specs/methods.py", line 335, in read_mapping
+    return {k: _reader.read_elem(v) for k, v in elem.items()}
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/specs/methods.py", line 335, in <dictcomp>
+    return {k: _reader.read_elem(v) for k, v in elem.items()}
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/utils.py", line 211, in func_wrapper
+    return func(*args, **kwargs)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/specs/registry.py", line 275, in read_elem
+    return self.callback(read_func, elem.name, elem, iospec=iospec)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/h5ad.py", line 256, in callback
+    return func(elem)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/specs/methods.py", line 335, in read_mapping
+    return {k: _reader.read_elem(v) for k, v in elem.items()}
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/specs/methods.py", line 335, in <dictcomp>
+    return {k: _reader.read_elem(v) for k, v in elem.items()}
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/utils.py", line 211, in func_wrapper
+    return func(*args, **kwargs)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/specs/registry.py", line 272, in read_elem
+    read_func = self.registry.get_read(type(elem), iospec, modifiers, reader=self)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/drvi-bm-env/lib/python3.10/site-packages/anndata/_io/specs/registry.py", line 167, in get_read
+    raise IORegistryError._from_read_parts(
+anndata._io.specs.registry.IORegistryError: No read method registered for IOSpec(encoding_type='null', encoding_version='0.1.0') from <class 'h5py._hl.dataset.Dataset'>. You may need to update your installation of anndata.
+Error raised while reading key 'base' of <class 'h5py._hl.dataset.Dataset'> from /uns/log1p

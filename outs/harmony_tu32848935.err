@@ -1,0 +1,53 @@
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+/usr/bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+/usr/bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+/usr/bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+Traceback (most recent call last):
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/git/mempel_xenium/harmony_integration.py", line 144, in <module>
+    main(
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/git/mempel_xenium/harmony_integration.py", line 38, in main
+    adata = sc.read_h5ad(input_path)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/h5ad.py", line 263, in read_h5ad
+    adata = read_dispatched(f, callback=callback)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/experimental/_dispatch_io.py", line 42, in read_dispatched
+    return reader.read_elem(elem)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/utils.py", line 215, in func_wrapper
+    return func(*args, **kwargs)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/specs/registry.py", line 281, in read_elem
+    return self.callback(read_func, elem.name, elem, iospec=iospec)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/h5ad.py", line 244, in callback
+    **{
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/h5ad.py", line 247, in <dictcomp>
+    k: read_dispatched(elem[k], callback)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/experimental/_dispatch_io.py", line 42, in read_dispatched
+    return reader.read_elem(elem)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/utils.py", line 215, in func_wrapper
+    return func(*args, **kwargs)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/specs/registry.py", line 281, in read_elem
+    return self.callback(read_func, elem.name, elem, iospec=iospec)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/h5ad.py", line 261, in callback
+    return func(elem)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/specs/methods.py", line 337, in read_mapping
+    return {k: _reader.read_elem(v) for k, v in elem.items()}
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/specs/methods.py", line 337, in <dictcomp>
+    return {k: _reader.read_elem(v) for k, v in elem.items()}
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/utils.py", line 215, in func_wrapper
+    return func(*args, **kwargs)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/specs/registry.py", line 281, in read_elem
+    return self.callback(read_func, elem.name, elem, iospec=iospec)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/h5ad.py", line 261, in callback
+    return func(elem)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/specs/methods.py", line 337, in read_mapping
+    return {k: _reader.read_elem(v) for k, v in elem.items()}
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/specs/methods.py", line 337, in <dictcomp>
+    return {k: _reader.read_elem(v) for k, v in elem.items()}
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/utils.py", line 215, in func_wrapper
+    return func(*args, **kwargs)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/specs/registry.py", line 276, in read_elem
+    read_func: Read = self.registry.get_read(
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/integration-env/lib/python3.10/site-packages/anndata/_io/specs/registry.py", line 171, in get_read
+    raise IORegistryError._from_read_parts("read", self.read, src_type, spec)  # noqa: EM101
+anndata._io.specs.registry.IORegistryError: No read method registered for IOSpec(encoding_type='null', encoding_version='0.1.0') from <class 'h5py._hl.dataset.Dataset'>. You may need to update your installation of anndata.
+Error raised while reading key 'base' of <class 'h5py._hl.dataset.Dataset'> from /uns/log1p

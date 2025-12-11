@@ -1,0 +1,13 @@
+[2025-12-08 22:12:50] Loading AnnData from 
+/home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas_merged/me
+rged_TU.h5ad
+[2025-12-08 22:13:17]    AnnData shape: (3487396, 335)
+[2025-12-08 22:13:17] Using batch_key: 'slide_id'
+[2025-12-08 22:13:17] Using precomputed basis: 'X_pca'
+[2025-12-08 22:13:17] Applying Harmony integration...
+[2025-12-08 23:01:43] Extracting Harmony embeddings...
+[2025-12-08 23:01:44]    Embedding shape: (3487396, 50)
+[2025-12-08 23:01:44] Saving embeddings to 
+/home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_integration_embs
+/harmony_TU_emb.pkl
+[2025-12-08 23:01:47] Process completed successfully!

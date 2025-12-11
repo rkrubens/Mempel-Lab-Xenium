@@ -1,0 +1,10 @@
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+/usr/bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+/usr/bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+/usr/bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/umap/spectral.py:548: UserWarning: Spectral initialisation failed! The eigenvector solver
+failed. This is likely due to too small an eigengap. Consider
+adding some noise or jitter to your data.
+
+Falling back to random initialisation!
+  warn(

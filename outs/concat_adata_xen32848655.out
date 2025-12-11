@@ -1,0 +1,49 @@
+[2025-12-08 20:17:17] ===== Start concatenating resegmented AnnData files =====
+[2025-12-08 20:17:17] Input directory: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas
+[2025-12-08 20:17:17] Output directory: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas_merged
+[2025-12-08 20:17:18] Found 12 .h5ad files: ['resegment_output-XETG00323__0052425__TU_3__20250221__191919.h5ad', 'resegment_output-XETG00323__0052425__TU_aPDL1_3__20250221__191919.h5ad', 'resegment_output-XETG00323__0023214__MCA205_d21__20240809__204811.h5ad', 'resegment_output-XETG00323__0052425__TU_1__20250221__191919.h5ad', 'resegment_output-XETG00323__0023078__MCA205_d2_aPDL1__20240809__204811.h5ad', 'resegment_output-XETG00323__0052328__TU_aPDL1_2__20250221__191919.h5ad', 'resegment_output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_.h5ad', 'resegment_output-XETG00323__0023214__MCA205_d14__20240809__204811.h5ad', 'resegment_output-XETG00323__0023078__MCA205_d4_aPDL1__20240809__204811.h5ad', 'resegment_output-XETG00212__0023182__MCA205_d7__20240809__203238.h5ad', 'resegment_output-XETG00323__0052328__TU_aPDL1_1__20250221__191919.h5ad', 'resegment_output-XETG00323__0052425__TU_2__20250221__191919.h5ad']
+[2025-12-08 20:17:18] TU files (6): ['resegment_output-XETG00323__0052425__TU_3__20250221__191919.h5ad', 'resegment_output-XETG00323__0052425__TU_aPDL1_3__20250221__191919.h5ad', 'resegment_output-XETG00323__0052425__TU_1__20250221__191919.h5ad', 'resegment_output-XETG00323__0052328__TU_aPDL1_2__20250221__191919.h5ad', 'resegment_output-XETG00323__0052328__TU_aPDL1_1__20250221__191919.h5ad', 'resegment_output-XETG00323__0052425__TU_2__20250221__191919.h5ad']
+[2025-12-08 20:17:18] MCA files (6): ['resegment_output-XETG00323__0023214__MCA205_d21__20240809__204811.h5ad', 'resegment_output-XETG00323__0023078__MCA205_d2_aPDL1__20240809__204811.h5ad', 'resegment_output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_.h5ad', 'resegment_output-XETG00323__0023214__MCA205_d14__20240809__204811.h5ad', 'resegment_output-XETG00323__0023078__MCA205_d4_aPDL1__20240809__204811.h5ad', 'resegment_output-XETG00212__0023182__MCA205_d7__20240809__203238.h5ad']
+[2025-12-08 20:17:18] [TU 1/6] Reading: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052425__TU_3__20250221__191919.h5ad (slide_id=resegment_output-XETG00323__0052425__TU_3__20250221__191919)
+[2025-12-08 20:17:20]    Loaded AnnData with shape (692582, 335)
+[2025-12-08 20:17:20] [TU 2/6] Reading: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052425__TU_aPDL1_3__20250221__191919.h5ad (slide_id=resegment_output-XETG00323__0052425__TU_aPDL1_3__20250221__191919)
+[2025-12-08 20:17:22]    Loaded AnnData with shape (394763, 335)
+[2025-12-08 20:17:22] [TU 3/6] Reading: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052425__TU_1__20250221__191919.h5ad (slide_id=resegment_output-XETG00323__0052425__TU_1__20250221__191919)
+[2025-12-08 20:17:24]    Loaded AnnData with shape (582731, 335)
+[2025-12-08 20:17:24] [TU 4/6] Reading: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052328__TU_aPDL1_2__20250221__191919.h5ad (slide_id=resegment_output-XETG00323__0052328__TU_aPDL1_2__20250221__191919)
+[2025-12-08 20:17:26]    Loaded AnnData with shape (638882, 335)
+[2025-12-08 20:17:26] [TU 5/6] Reading: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052328__TU_aPDL1_1__20250221__191919.h5ad (slide_id=resegment_output-XETG00323__0052328__TU_aPDL1_1__20250221__191919)
+[2025-12-08 20:17:28]    Loaded AnnData with shape (556239, 335)
+[2025-12-08 20:17:28] [TU 6/6] Reading: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0052425__TU_2__20250221__191919.h5ad (slide_id=resegment_output-XETG00323__0052425__TU_2__20250221__191919)
+[2025-12-08 20:17:30]    Loaded AnnData with shape (622199, 335)
+[2025-12-08 20:17:30] → Concatenating 6 AnnData objects for group 'TU'...
+[2025-12-08 20:17:33]    Resulting merged AnnData shape: (3487396, 335)
+→ Preprocessing TU merged AnnData...
+→ Log1p transformation...
+→ PCA...
+→ Neighbors...
+→ UMAP...
+[2025-12-08 20:58:02] → Saving TU merged AnnData to: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas_merged/merged_TU.h5ad
+[2025-12-08 20:58:36] ✔️ Saved TU merged file: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas_merged/merged_TU.h5ad
+[2025-12-08 20:58:36] [MCA 1/6] Reading: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0023214__MCA205_d21__20240809__204811.h5ad (slide_id=resegment_output-XETG00323__0023214__MCA205_d21__20240809__204811)
+[2025-12-08 20:58:39]    Loaded AnnData with shape (606169, 335)
+[2025-12-08 20:58:39] [MCA 2/6] Reading: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0023078__MCA205_d2_aPDL1__20240809__204811.h5ad (slide_id=resegment_output-XETG00323__0023078__MCA205_d2_aPDL1__20240809__204811)
+[2025-12-08 20:58:41]    Loaded AnnData with shape (588123, 335)
+[2025-12-08 20:58:41] [MCA 3/6] Reading: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_.h5ad (slide_id=resegment_output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_)
+[2025-12-08 20:58:45]    Loaded AnnData with shape (1000255, 335)
+[2025-12-08 20:58:45] [MCA 4/6] Reading: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0023214__MCA205_d14__20240809__204811.h5ad (slide_id=resegment_output-XETG00323__0023214__MCA205_d14__20240809__204811)
+[2025-12-08 20:58:47]    Loaded AnnData with shape (778776, 335)
+[2025-12-08 20:58:47] [MCA 5/6] Reading: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00323__0023078__MCA205_d4_aPDL1__20240809__204811.h5ad (slide_id=resegment_output-XETG00323__0023078__MCA205_d4_aPDL1__20240809__204811)
+[2025-12-08 20:58:50]    Loaded AnnData with shape (805742, 335)
+[2025-12-08 20:58:50] [MCA 6/6] Reading: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas/resegment_output-XETG00212__0023182__MCA205_d7__20240809__203238.h5ad (slide_id=resegment_output-XETG00212__0023182__MCA205_d7__20240809__203238)
+[2025-12-08 20:58:51]    Loaded AnnData with shape (260709, 335)
+[2025-12-08 20:58:51] → Concatenating 6 AnnData objects for group 'MCA'...
+[2025-12-08 20:58:54]    Resulting merged AnnData shape: (4039774, 335)
+→ Preprocessing MCA merged AnnData...
+→ Log1p transformation...
+→ PCA...
+→ Neighbors...
+→ UMAP...
+[2025-12-08 21:50:51] → Saving MCA merged AnnData to: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas_merged/merged_MCA.h5ad
+[2025-12-08 21:51:27] ✔️ Saved MCA merged file: /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas_merged/merged_MCA.h5ad
+[2025-12-08 21:51:27] ===== Done. =====

@@ -1,0 +1,18 @@
+[INFO] Loading AnnData from /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas_merged/merged_TU.h5ad
+[INFO] Loading embeddings from /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_integration_embs
+[INFO] Reading embedding from /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_integration_embs/drvi_TU_emb.pkl
+[INFO] Reading embedding from /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_integration_embs/harmony_TU_emb.pkl
+[INFO] Reading embedding from /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_integration_embs/scvi_TU_emb.pkl
+[INFO] Computing neighbors and UMAP for embedding 'unintegrated'
+[INFO] Plotting UMAP for 'unintegrated'
+[INFO] Saved /home/icb/raphael.kfuri-rubens/git/mempel_xenium/figures/umap_TU_unintegrated.png and /home/icb/raphael.kfuri-rubens/git/mempel_xenium/figures/umap_TU_unintegrated.pdf
+[INFO] Computing neighbors and UMAP for embedding 'harmony'
+[INFO] Plotting UMAP for 'harmony'
+[INFO] Saved /home/icb/raphael.kfuri-rubens/git/mempel_xenium/figures/umap_TU_harmony.png and /home/icb/raphael.kfuri-rubens/git/mempel_xenium/figures/umap_TU_harmony.pdf
+[INFO] Computing neighbors and UMAP for embedding 'scvi'
+[INFO] Plotting UMAP for 'scvi'
+[INFO] Saved /home/icb/raphael.kfuri-rubens/git/mempel_xenium/figures/umap_TU_scvi.png and /home/icb/raphael.kfuri-rubens/git/mempel_xenium/figures/umap_TU_scvi.pdf
+[INFO] Computing neighbors and UMAP for embedding 'drvi'
+[INFO] Plotting UMAP for 'drvi'
+[INFO] Saved /home/icb/raphael.kfuri-rubens/git/mempel_xenium/figures/umap_TU_drvi.png and /home/icb/raphael.kfuri-rubens/git/mempel_xenium/figures/umap_TU_drvi.pdf
+[INFO] All done.

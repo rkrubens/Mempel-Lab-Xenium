@@ -1,0 +1,49 @@
+/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+Computing neighbors:   0%|          | 0/4 [00:00<?, ?it/s]Computing neighbors:  25%|██▌       | 1/4 [15:41<47:04, 941.41s/it]Computing neighbors:  50%|█████     | 2/4 [31:04<31:00, 930.39s/it]Computing neighbors:  75%|███████▌  | 3/4 [45:11<14:52, 892.55s/it]Computing neighbors: 100%|██████████| 4/4 [1:00:51<00:00, 911.24s/it]Computing neighbors: 100%|██████████| 4/4 [1:00:51<00:00, 912.90s/it]
+Embeddings:   0%|[32m          [0m| 0/4 [00:00<?, ?it/s]
+Metrics:   0%|[34m          [0m| 0/5 [00:00<?, ?it/s][A
+Metrics:   0%|[34m          [0m| 0/5 [00:08<?, ?it/s, Batch correction: bras][AWARNING:2025-12-09 20:16:04,814:jax._src.xla_bridge:854: An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+
+Metrics:  20%|[34m██        [0m| 1/5 [5:32:56<22:11:47, 19976.87s/it, Batch correction: bras][A
+Metrics:  20%|[34m██        [0m| 1/5 [5:33:01<22:11:47, 19976.87s/it, Batch correction: ilisi_knn][A
+Metrics:  40%|[34m████      [0m| 2/5 [5:33:23<6:52:04, 8241.60s/it, Batch correction: ilisi_knn]  [A
+Metrics:  40%|[34m████      [0m| 2/5 [5:33:24<6:52:04, 8241.60s/it, Batch correction: kbet_per_label][A
+Metrics:  60%|[34m██████    [0m| 3/5 [6:39:27<3:29:36, 6288.33s/it, Batch correction: kbet_per_label][A
+Metrics:  60%|[34m██████    [0m| 3/5 [6:39:31<3:29:36, 6288.33s/it, Batch correction: graph_connectivity][A/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/scib_metrics/metrics/_graph_connectivity.py:32: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(comps)
+
+Metrics:  80%|[34m████████  [0m| 4/5 [6:39:39<1:03:30, 3810.34s/it, Batch correction: graph_connectivity][A
+Metrics:  80%|[34m████████  [0m| 4/5 [6:39:39<1:03:30, 3810.34s/it, Batch correction: pcr_comparison]    [A
+Metrics: 100%|[34m██████████[0m| 5/5 [6:39:52<00:00, 2441.22s/it, Batch correction: pcr_comparison]  [AEmbeddings:  25%|[32m██▌       [0m| 1/4 [6:39:52<19:59:38, 23992.94s/it]
+                                                                                            [A
+Metrics:   0%|[34m          [0m| 0/5 [00:00<?, ?it/s][A
+Metrics:   0%|[34m          [0m| 0/5 [00:00<?, ?it/s, Batch correction: bras][A
+Metrics:  20%|[34m██        [0m| 1/5 [5:35:11<22:20:47, 20111.91s/it, Batch correction: bras][A
+Metrics:  20%|[34m██        [0m| 1/5 [5:35:16<22:20:47, 20111.91s/it, Batch correction: ilisi_knn][A
+Metrics:  40%|[34m████      [0m| 2/5 [5:35:39<6:54:52, 8297.39s/it, Batch correction: ilisi_knn]  [A
+Metrics:  40%|[34m████      [0m| 2/5 [5:35:39<6:54:52, 8297.39s/it, Batch correction: kbet_per_label][A
+Metrics:  60%|[34m██████    [0m| 3/5 [6:47:06<3:35:32, 6466.22s/it, Batch correction: kbet_per_label][A
+Metrics:  60%|[34m██████    [0m| 3/5 [6:47:09<3:35:32, 6466.22s/it, Batch correction: graph_connectivity][A/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/scib_metrics/metrics/_graph_connectivity.py:32: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(comps)
+
+Metrics:  80%|[34m████████  [0m| 4/5 [6:47:16<1:05:17, 3917.38s/it, Batch correction: graph_connectivity][A
+Metrics:  80%|[34m████████  [0m| 4/5 [6:47:16<1:05:17, 3917.38s/it, Batch correction: pcr_comparison]    [A
+Metrics: 100%|[34m██████████[0m| 5/5 [6:47:28<00:00, 2509.09s/it, Batch correction: pcr_comparison]  [AEmbeddings:  50%|[32m█████     [0m| 2/4 [13:27:21<13:28:41, 24260.87s/it]
+                                                                                            [A
+Metrics:   0%|[34m          [0m| 0/5 [00:00<?, ?it/s][A
+Metrics:   0%|[34m          [0m| 0/5 [00:00<?, ?it/s, Batch correction: bras][A
+Metrics:  20%|[34m██        [0m| 1/5 [4:41:31<18:46:06, 16891.60s/it, Batch correction: bras][A
+Metrics:  20%|[34m██        [0m| 1/5 [4:41:32<18:46:06, 16891.60s/it, Batch correction: ilisi_knn][A
+Metrics:  40%|[34m████      [0m| 2/5 [4:41:46<5:48:12, 6964.16s/it, Batch correction: ilisi_knn]  [A
+Metrics:  40%|[34m████      [0m| 2/5 [4:41:46<5:48:12, 6964.16s/it, Batch correction: kbet_per_label][A
+Metrics:  60%|[34m██████    [0m| 3/5 [5:50:33<3:08:57, 5668.53s/it, Batch correction: kbet_per_label][A
+Metrics:  60%|[34m██████    [0m| 3/5 [5:50:37<3:08:57, 5668.53s/it, Batch correction: graph_connectivity][A/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/scib_metrics/metrics/_graph_connectivity.py:32: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(comps)
+
+Metrics:  80%|[34m████████  [0m| 4/5 [5:50:45<57:15, 3435.45s/it, Batch correction: graph_connectivity]  [A
+Metrics:  80%|[34m████████  [0m| 4/5 [5:50:45<57:15, 3435.45s/it, Batch correction: pcr_comparison]    [A
+Metrics: 100%|[34m██████████[0m| 5/5 [5:51:20<00:00, 2209.38s/it, Batch correction: pcr_comparison][AEmbeddings:  75%|[32m███████▌  [0m| 3/4 [19:18:42<6:20:08, 22808.82s/it] 
+                                                                                            [A
+Metrics:   0%|[34m          [0m| 0/5 [00:00<?, ?it/s][A
+Metrics:   0%|[34m          [0m| 0/5 [00:00<?, ?it/s, Batch correction: bras][A[2025-12-10T19:13:02.281] error: *** JOB 32861597 ON gpusrv50 CANCELLED AT 2025-12-10T19:13:02 DUE TO TIME LIMIT ***

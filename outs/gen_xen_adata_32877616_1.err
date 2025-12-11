@@ -1,0 +1,16 @@
+/home/icb/raphael.kfuri-rubens/git/mempel_xenium/generate_final_objects.py:44: FutureWarning: Use obsm (e.g. `k in adata.obsm` or `adata.obsm.keys() | {'u'}`) instead of AnnData.obsm_keys, AnnData.obsm_keys is deprecated and will be removed in the future.
+  if rep not in adata.obsm_keys():
+/home/icb/raphael.kfuri-rubens/git/mempel_xenium/generate_final_objects.py:61: FutureWarning: Use obsm (e.g. `k in adata.obsm` or `adata.obsm.keys() | {'u'}`) instead of AnnData.obsm_keys, AnnData.obsm_keys is deprecated and will be removed in the future.
+  if umap_key in adata.obsm_keys():
+/home/icb/raphael.kfuri-rubens/git/mempel_xenium/generate_final_objects.py:44: FutureWarning: Use obsm (e.g. `k in adata.obsm` or `adata.obsm.keys() | {'u'}`) instead of AnnData.obsm_keys, AnnData.obsm_keys is deprecated and will be removed in the future.
+  if rep not in adata.obsm_keys():
+/home/icb/raphael.kfuri-rubens/git/mempel_xenium/generate_final_objects.py:61: FutureWarning: Use obsm (e.g. `k in adata.obsm` or `adata.obsm.keys() | {'u'}`) instead of AnnData.obsm_keys, AnnData.obsm_keys is deprecated and will be removed in the future.
+  if umap_key in adata.obsm_keys():
+/home/icb/raphael.kfuri-rubens/git/mempel_xenium/generate_final_objects.py:44: FutureWarning: Use obsm (e.g. `k in adata.obsm` or `adata.obsm.keys() | {'u'}`) instead of AnnData.obsm_keys, AnnData.obsm_keys is deprecated and will be removed in the future.
+  if rep not in adata.obsm_keys():
+/home/icb/raphael.kfuri-rubens/git/mempel_xenium/generate_final_objects.py:61: FutureWarning: Use obsm (e.g. `k in adata.obsm` or `adata.obsm.keys() | {'u'}`) instead of AnnData.obsm_keys, AnnData.obsm_keys is deprecated and will be removed in the future.
+  if umap_key in adata.obsm_keys():
+/home/icb/raphael.kfuri-rubens/git/mempel_xenium/generate_final_objects.py:44: FutureWarning: Use obsm (e.g. `k in adata.obsm` or `adata.obsm.keys() | {'u'}`) instead of AnnData.obsm_keys, AnnData.obsm_keys is deprecated and will be removed in the future.
+  if rep not in adata.obsm_keys():
+/home/icb/raphael.kfuri-rubens/git/mempel_xenium/generate_final_objects.py:61: FutureWarning: Use obsm (e.g. `k in adata.obsm` or `adata.obsm.keys() | {'u'}`) instead of AnnData.obsm_keys, AnnData.obsm_keys is deprecated and will be removed in the future.
+  if umap_key in adata.obsm_keys():

@@ -1,0 +1,10 @@
+[INFO] Processing: resegment_output-XETG00212__0023182__MCA205_d7__20240809__203238
+[INFO] transcripts = /ictstr01/home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegment_output-XETG00212__0023182__MCA205_d7__20240809__203238/outs/transcripts.parquet
+[INFO] output      = /ictstr01/home/icb/raphael.kfuri-rubens/git/mempel_xenium/proseg_outs/output-XETG00212__0023182__MCA205_d7__20240809__203238.zarr
+Using 20 threads
+Finished reading input
+Read dataset:
+ 76443736 transcripts
+   261466 cells
+      335 genes
+       82 fovs

@@ -1,0 +1,21 @@
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+/usr/bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+/usr/bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+/usr/bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Traceback (most recent call last):
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/git/mempel_xenium/umap_tu.py", line 91, in <module>
+    main()
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/git/mempel_xenium/umap_tu.py", line 67, in main
+    sc.pl.embedding(
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/scanpy/plotting/_tools/scatterplots.py", line 279, in embedding
+    color_source_vector = _get_color_source_vector(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/scanpy/plotting/_tools/scatterplots.py", line 1200, in _get_color_source_vector
+    values = adata.obs_vector(value_to_plot, layer=layer)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/anndata/_core/anndata.py", line 1336, in obs_vector
+    return get_vector(self, k, "obs", "var", layer=layer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/lib/python3.11/site-packages/anndata/_core/index.py", line 357, in get_vector
+    raise KeyError(msg)
+KeyError: 'Could not find key sample_id in .var_names or .obs.columns.'

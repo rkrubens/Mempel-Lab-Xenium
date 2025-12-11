@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/git/mempel_xenium/harmony_integration.py", line 7, in <module>
+    from rich import print
+ModuleNotFoundError: No module named 'rich'

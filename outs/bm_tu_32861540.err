@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/git/mempel_xenium/bm_tu.py", line 85, in <module>
+    main()
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/git/mempel_xenium/bm_tu.py", line 48, in main
+    bm = Benchmarker(
+         ^^^^^^^^^^^^
+TypeError: Benchmarker.__init__() missing 1 required positional argument: 'label_key'

@@ -1,0 +1,12 @@
+[INFO] Loading AnnData from /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas_merged/merged_TU.h5ad
+[INFO] Loading embeddings from /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_integration_embs
+[INFO] Reading embedding from /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_integration_embs/drvi_TU_emb.pkl
+[INFO] Reading embedding from /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_integration_embs/harmony_TU_emb.pkl
+[INFO] Reading embedding from /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_integration_embs/scvi_TU_emb.pkl
+[INFO] Initializing Benchmarker
+[INFO] Running benchmark
+[INFO] Collecting results
+[INFO] Saving unscaled results to /home/icb/raphael.kfuri-rubens/git/mempel_xenium/integration_bm_results/bm_df_unscaled.csv
+[INFO] Saving scaled results to /home/icb/raphael.kfuri-rubens/git/mempel_xenium/integration_bm_results/bm_df_scaled.csv
+[INFO] Saving Benchmarker object to /home/icb/raphael.kfuri-rubens/git/mempel_xenium/integration_bm_results/bm.pkl
+[INFO] Done.

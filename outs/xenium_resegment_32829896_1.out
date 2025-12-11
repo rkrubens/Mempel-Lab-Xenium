@@ -1,0 +1,50 @@
+[INFO] SLURM_ARRAY_TASK_ID = 1
+[INFO] Processing slide directory: /ictstr01/groups/ml01/projects/2025_xenium_mempel_lab_raphael.kfuri-rubens/MCA205/resegmentation_data/output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_
+[INFO] Slide name: output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_
+[INFO] Using localcores = 20
+[INFO] Using localmem   = 500 GB
+Martian Runtime - v4.0.14
+Serving UI at http://cpusrv112.scidom.de:38951?auth=UrI80GRNkjhN9oPUlXLxjqDu_rv2B1G-FH3HW7ifqxo
+
+Running preflight checks (please wait)...
+
+[error] Pipestance failed. Error log at:
+resegment_output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_/XENIUM_RANGER_CS/XR_PREFLIGHT/fork0/join-u2cb734a38a/_errors
+
+Log message:
+Traceback (most recent call last):
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/tools/xeniumranger-xenium4.0/external/martian/adapters/python/martian_shell.py", line 648, in _main
+    stage.main()
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/tools/xeniumranger-xenium4.0/external/martian/adapters/python/martian_shell.py", line 617, in main
+    self._run(
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/tools/xeniumranger-xenium4.0/external/martian/adapters/python/martian_shell.py", line 564, in _run
+    cmd()
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/tools/xeniumranger-xenium4.0/external/martian/adapters/python/martian_shell.py", line 618, in <lambda>
+    lambda: self._module.join(args, outs, chunk_defs, chunk_outs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/tools/xeniumranger-xenium4.0/mro/insitu/stages/xr_preflight/__init__.py", line 51, in join
+    run_xenium_ranger_preflight_checks(
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/tools/xeniumranger-xenium4.0/lib/python/turing/engine/xenium_ranger/xr_preflight.py", line 99, in run_xenium_ranger_preflight_checks
+    xr_min_bundle = XrMinBundle(Path(output_bundle_path), files_path)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 3, in __init__
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/tools/xeniumranger-xenium4.0/lib/python/turing/engine/xenium_ranger/xr_setup_inputs.py", line 1030, in __post_init__
+    self.validate_files(p)
+  File "/ictstr01/home/icb/raphael.kfuri-rubens/tools/xeniumranger-xenium4.0/lib/python/turing/engine/xenium_ranger/xr_setup_inputs.py", line 1158, in validate_files
+    raise XrFileNotFoundError(message)
+turing.engine.xenium_ranger.xr_common.XrFileNotFoundError: Error: Required files missing from Xenium Bundle.
+
+Missing files:
+	- analysis_summary.html
+
+
+
+Waiting 6 seconds for UI to do final refresh.
+Pipestance failed. Use --noexit option to keep UI running after failure.
+
+2025-12-06 22:43:57 Shutting down.
+Saving pipestance info to "/ictstr01/home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegment_output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_/resegment_output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_.mri.tgz"
+For assistance, upload this file to 10x Genomics by running:
+
+xeniumranger upload <your_email> "/ictstr01/home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegment_output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_/resegment_output-XETG00212__0023280__Region_1__20240917__175222_MCA205_d21_.mri.tgz"
+

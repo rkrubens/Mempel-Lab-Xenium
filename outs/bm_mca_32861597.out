@@ -1,0 +1,7 @@
+[INFO] Loading AnnData from /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_adatas_merged/merged_MCA.h5ad
+[INFO] Loading embeddings from /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_integration_embs
+[INFO] Reading embedding from /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_integration_embs/scvi_MCA_emb.pkl
+[INFO] Reading embedding from /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_integration_embs/harmony_MCA_emb.pkl
+[INFO] Reading embedding from /home/icb/raphael.kfuri-rubens/git/mempel_xenium/resegmentation_integration_embs/drvi_MCA_emb.pkl
+[INFO] Initializing Benchmarker
+[INFO] Running benchmark

@@ -1,0 +1,2 @@
+/ictstr01/home/icb/raphael.kfuri-rubens/miniforge-pypy3/envs/int-bm-env/bin/python: can't open file '/home/icb/raphael.kfuri-rubens/git/mempel_xenium/compute_umaps_for_embeddings.py': [Errno 2] No such file or directory
+srun: error: gpusrv61: task 0: Exited with exit code 2
